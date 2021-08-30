@@ -1,0 +1,95 @@
+body {
+    background: #5CDB95;
+    display: flex;
+    justify-content: center;
+}
+
+#main_div {
+    margin: 5%;
+    min-height: 150px;
+    width: 20%;
+    text-align: center;
+    float: left;
+    background: #EDF5E1;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.order_num {
+    float: left;
+    width: 7%;
+}
+
+.hours_input {
+    float: left;
+    border: none;
+    width: 25%;
+}
+
+.hours_text {
+    float: left;
+    border: none;
+    width: 7%;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.minutes_input {
+    float: left;
+    border: none;
+    width: 25%;
+}
+
+.minutes_text {
+    float: left;
+    clear-after: both;
+    border: none;
+    width: 5%;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.record {
+    clear: both;
+    padding: 1%;
+
+}
+
+.records {
+    clear: both;
+}
+
+#result {
+    float: left;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    background: #05386B;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#sum_button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    background: #05386B;
+    float: left;
+}
+
+#add_new_record {
+    background: #379683;
+}
+
